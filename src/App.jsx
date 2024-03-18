@@ -3,6 +3,7 @@ import HomePage from "./Components/HomePage";
 import Questions from "./Components/Questions";
 import Help from "./Components/Help";
 import Profile from "./Components/Profile";
+import About from "./Components/About";
 
 const App = () => {
   return (
@@ -11,6 +12,9 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/questions" element={<Questions />} />
         <Route path="/help" element={<Help />} />
+        <Route path="/about" element={<About />} />
+
+        
         <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
