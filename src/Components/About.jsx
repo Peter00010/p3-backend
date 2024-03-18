@@ -1,8 +1,9 @@
+import Banner from "./Banner"
 
 
 const About = () => {
   return (
-    <div>About</div>
+    <Banner/>
   )
 }
 

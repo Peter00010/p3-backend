@@ -1,8 +1,9 @@
+import Banner from "./Banner";
 
 
 const Profile = () => {
   return (
-    <div>Profile</div>
+    <Banner/>
   )
 }
 

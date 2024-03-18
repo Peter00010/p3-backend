@@ -1,0 +1,7 @@
+.hover\:text-primary {
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .hover\:text-primary:hover {
+    color: var(--primary);
+  }

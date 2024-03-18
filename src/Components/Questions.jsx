@@ -1,9 +1,10 @@
-
+/* eslint-disable no-unused-vars */
+import Banner from "./Banner";
 
 const Questions = () => {
   return (
-    <div>Questions</div>
-  )
-}
+    <Banner/>
+  );
+};
 
-export default Questions
+export default Questions;
